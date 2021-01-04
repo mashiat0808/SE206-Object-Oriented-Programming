@@ -1,4 +1,4 @@
-import java.util.*;
+import java.utility.*;
 
 
 class BankAccount
@@ -26,14 +26,13 @@ class BankAccount
 {
     if (pin == this.PIN)
     {
-		//System.out
-		return this.balance;
+		return this.balance; //system out
 		
     }
 
     else
     {
-        System.out.println("pin incorrect");
+        System.out.println("Pin incorrect. Can not make transaction.");
         return 0;
     }
 }
